@@ -6,44 +6,81 @@
 
 do {
 
-        var music = prompt(" Which type of music do you like? Rock, Hip Hop, Rnb, Country?", "none");
-// This line does a number of things. First it creates the variable age. Then it makes the prompt window pop up and I specified that it should say, "We will redirect you to the appropriate site. Our system is based on if you are older or younger than sixty. How old are you?". I also specified that the field should be have a zero in it when the user sees it. I did that with the zero between my two quotation marks at the end.
-    } while(music="none" && music != null)
-// This here is the end of my " 'do' 'while' loop" which specifies that as the loop should continue as long as the age entered is less than or equal to 0 and the user does not click cancel
+        var myMusic= prompt("Do you like Rock(1), Rnb(2), Rap(3), or Country(4)? Enter the number you see next to your style of music.", "");
+
+// This line does a number of things. First it creates the variable "myMusic". Then it makes the prompt window pop up and I specified that it should say, "Do you like Rock(1), Rnb(2), Rap(3), or Country(4). Enter the number you see next to your style of music." I initially tried to have javascript react to the words themselves being submitted but I was a bit rusty. I also specified that the field should be have nothing in it when the user sees it. I did that by putting nothing between my two quotation marks at the end.
+  } while ((myMusic < 1 && myMusic != null) || (myMusic > 4 && myMusic != null))
+
+// This here is the end of my " 'do' 'while' loop" which specifies that as the loop should continue as long as the number entered into the field is less than 1 and the user does not click cancel
 
 
 
+// The key to the User input numbers is as follows: "Rock" = 1 "Rnb" = 2 "Rap" = 3 "Country" = 4 
 
-
-
-if (music == Hip Hop)	
+if (myMusic == 4)	
  
  {
-		document.write(" Please enjoy yourself!! <br />");
+		document.write("Enjoy Country <br />");
 	
 function Redirect()
 {
-    window.location="http://http://www.last.fm/tag/hip%20hop/";
+    window.location="http://www.cmt.com/music/radio";
 }
 
-document.write("You will be redirected to a suitable page in 5 seconds.");
-setTimeout('Redirect()', 5000);
+document.write("You will be redirected to a suitable page in 5 seconds. <br/>");
+setTimeout('Redirect()', 2000);
 }
 
-// What this translates to is if the age is less than sixty, write on the page "Please enjoy yourself!! ;)" followed by a line break. Then it says redirect the page to "http://www.universalstudios.com/" . Then it says to write on the page "You will be redirected to a suitable page in 8 seconds." and I set the timer for 8000. When you use the timer you write the number of seconds multiplied by 1000 as your timer.
-	if (music == Rnb)
+// What this translates to is if the myMusic is equal to four, write on the page "Enjoy Country" followed by a line break. Then it says redirect the page to "www.cmt.com/music/radio" . Then it says to write on the page "You will be redirected to a suitable page in 5 seconds." and I set the timer for 2000. When you use the timer you write the number of seconds multiplied by 1000 as your timer. However, why not cause a little happiness in the world? I tell them wait 5 seconds. They get what they want in two. They'll always be happy to see me.
+	
+
+if (myMusic == 2)
 {
-		document.write("Your life is over. <br />");
+		document.write("Enjoy Rnb <br />");
 
 function Redirect()
 {
-    window.location="http://www.retirementhomes.com/";
+    window.location="http://www.artistdirect.com/music/r-b-soul/878";
 }
 
 document.write("You will be redirected to a suitable page in 5 seconds.");
-setTimeout('Redirect()', 5000);
+setTimeout('Redirect()', 2000);
 }
-// This says that if the age is more than sixty, write on the page "Your life is over." followed by a line break. Then it says redirect the page to "http://www.retirementhomes.com/" . Then it says to write on the page "You will be redirected to a suitable page in 5 seconds." and I set the timer for 5000. When you use the timer you write the number of seconds multiplied by 1000 as your timer.
+
+// Here we have basically the same code. I'm just redirecting them to rnb music.
+
+
+if (myMusic == 3)	
+ 
+ {
+		document.write("Enjoy Rap <br />");
+	
+function Redirect()
+{
+    window.location="http://www.last.fm/tag/rap";
+}
+
+document.write("You will be redirected to a suitable page in 5 seconds. <br/>");
+setTimeout('Redirect()', 2000);
+}
+
+//redirecting them to rap
+	
+
+if (myMusic == 1)
+{
+		document.write("Enjoy Rock <br />");
+
+function Redirect()
+{
+    window.location="http://www.rock92.com/pages/3609314.php";
+}
+
+document.write("You will be redirected to a suitable page in 5 seconds.");
+setTimeout('Redirect()', 2000);
+}
+
+// redirecting them to rock
 
 	</script>
 
