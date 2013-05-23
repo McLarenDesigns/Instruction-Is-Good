@@ -1,0 +1,50 @@
+<html>
+<body>
+	
+	<script type="text/javascript">
+
+
+do {
+
+        var age = prompt("We will redirect you to the appropriate site. Our system is based on if you are older or younger than sixty. How old are you?", " ");
+
+    } while(age <= 0 && age != null)
+
+
+
+
+
+
+
+if (age < 60)	
+ {
+		document.write(" Please enjoy yourself!! ;) <br />");
+	
+function Redirect()
+{
+    window.location="http://www.universalstudios.com/";
+}
+
+document.write("You will be redirected to a suitable page in 8 seconds.");
+setTimeout('Redirect()', 8000);
+}
+
+
+	if (age > 60)
+{
+		document.write(" Your life is over. <br />");
+
+function Redirect()
+{
+    window.location="http://www.retirementhomes.com/";
+}
+
+document.write("You will be redirected to a suitable page in 5 seconds.");
+setTimeout('Redirect()', 5000);
+}
+
+
+	</script>
+
+</body>
+</html>
