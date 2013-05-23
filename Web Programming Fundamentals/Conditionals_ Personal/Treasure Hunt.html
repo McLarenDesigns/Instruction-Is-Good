@@ -4,12 +4,12 @@
 	<script type="text/javascript">
 
 
+do {
 
-// If you can answer this question you get a set of instructions that will take you to a prize.
-        var myProject = prompt("What was the name of my second project?.", "");
+        var myProject= prompt("What was the name of my second project?", "");
 
 // This line does a number of things. First it creates the variable "myMusic". Then it makes the prompt window pop up and I specified that it should say, "Do you like Rock(1), Rnb(2), Rap(3), or Country(4). Enter the number you see next to your style of music." I initially tried to have javascript react to the words themselves being submitted but I was a bit rusty. I also specified that the field should be have nothing in it when the user sees it. I did that by putting nothing between my two quotation marks at the end.
- 
+  } while (myProject != "Music Site Finder" && myProject != null)
 
 // This here is the end of my " 'do' 'while' loop" which specifies that as the loop should continue as long as the number entered into the field is less than 1 and the user does not click cancel
 
@@ -17,50 +17,24 @@
 
 // The key to the User input numbers is as follows: "Rock" = 1 "Rnb" = 2 "Rap" = 3 "Country" = 4 
 
-if (myProject == Music Site Finder)	
+if (myProject == "Music Site Finder")	
  
  {
-		document.write(" Now that you have found the name for my second project. You must locate it and run it in your browser.
-Step 1: When this page redirects you to Github.com, you must find the word "Committed". Click on it. <br /> <br /> <br > <br /> <br />
-
-
-
-
-
-
-Step 2: On the vey last Commit, look for the words "View file" CLick on it. <br /> <br /> <br > <br /> <br />
-
-
-
-
-
-
-
-Step 3: Look at the top of the file where it says either "Raw" or "View raw" and respectively download it and run it or copy and paste it
- into your own text editor where you can save it as an html file and run it through your browser <br /> <br /> <br > <br /> <br />
-
-
-
-
-
-
-
-Step 4:
-
-
-		 Enjoy your prize. Free Music!<br />");
+		document.write("You will be redirected closer to your goal in 23 seconds... <br /> You will have exactly that long to memorize these instructions.<br /> <br />Step one has already been done for you. <br /> <br />Step 2: Copy and paste the site's code into your own text editor. </br /> <br /> Step 3: Save the file as 'Good listening.html' <br /> <br /> Step 4: Run the file in your internet browser. <br /> <br /> Step 5: Answer the prompt and enjoy your prize!!! ");
 	
 function Redirect()
 {
-    window.location="https://github.com/McLarenDesigns/Instruction-Is-Good/commits/master";
+    window.location="https://github.com/McLarenDesigns/Instruction-Is-Good/blob/master/Web%20Programming%20Fundamentals/Conditionals_Wacky/Age%20appropriate%20site%20finder.html";
 }
 
-document.write("You will be redirected closer to your goal in 18 seconds. <br/>");
-setTimeout('Redirect()', 18000);
+setTimeout('Redirect()', 23000);
 }
 
 // What this translates to is if the myMusic is equal to four, write on the page "Enjoy Country" followed by a line break. Then it says redirect the page to "www.cmt.com/music/radio" . Then it says to write on the page "You will be redirected to a suitable page in 5 seconds." and I set the timer for 2000. When you use the timer you write the number of seconds multiplied by 1000 as your timer. However, why not cause a little happiness in the world? I tell them wait 5 seconds. They get what they want in two. They'll always be happy to see me.
 	
+
+
+
 
 
 	</script>
