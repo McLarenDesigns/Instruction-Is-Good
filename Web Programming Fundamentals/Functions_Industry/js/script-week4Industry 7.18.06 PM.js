@@ -28,7 +28,7 @@ if (answer == ";")
 //I told JavaScript that the variable "answer" is to be the same as the input recieved from the user. if that input is equal to "yes" than it should write "Checking your answer" followed by three line breaks.
 var name2 = prompt("What is your first name?", "");
 //I tell Javascript that the variable name2 will come from user input.
-document.write(name2 +", " + "The other programmers are waiting for you. The chat forum is located at programmersareus.com<br />");
+document.write(name2 +", " + "The other programmers are waiting for you. The chat forum is located at programmersareus.com <br />");
 
 //Then I tell JavaScript that "name2" should be used in conjunction with what i ask to be written on the page. By the way as far as I'm concerned, there is no programmmersareus.com
 
