@@ -1,10 +1,10 @@
-//Shaun Mcaren 5,31,2013 Assignment: Functions wk4-Industry
+//Shaun McLaren 5,31,2013 Assignment: Functions wk4-Industry
 
 
 var name = prompt("What does"js" stand for?", "");
 //Tells JavaScript to bring up a prompt window that asks, "What does "js" stand for?"
 
-if (name == "JavaScript")
+if (name == "javascript")
 //This tells JavaScript that "if" the name is JavaScript, then it should perform the set of instructions below.
 {
 		document.write("<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />Wow!! You may actually be a programmer... <br /> <br />");
@@ -19,7 +19,7 @@ setTimeout("congratulate('You have done well.')", 20000);
 //I told JavaScript what my function was and what the parameters where and then when to execute my function.
 var answer = prompt("What character goes on the outside of a prompt string?", "");
 
-if (answer == ";")
+if (answer == ;)
 //Which means if the user enters ";"
 {
 	document.write("Checking your answer... <br /> <br /> <br />");
