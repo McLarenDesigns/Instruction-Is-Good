@@ -1,25 +1,19 @@
  <!DOCTYPE html>
 <html>
-<head>
+<body>
 <script>
 
 
-alert("Click the button");
 
-function myFunction()
-{
-var name = prompt("What is your last name?", "");
-}
+name = prompt("What is your last name?", "");
+
+
 if (name == "Silvay")
 {
 		document.write("Wow could this be the wise and great one? <br />");
 		
-		prompt("Are you the wise and great one?", "")
 }
 </script>
-</head>
 
-<body>
-<button onclick="myFunction()">Click me!!</button>
 </body>
 </html>
