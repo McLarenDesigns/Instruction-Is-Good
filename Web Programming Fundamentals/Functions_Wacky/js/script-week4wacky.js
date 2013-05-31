@@ -31,3 +31,4 @@ var name2 = prompt("What is your name?", "");
 document.write(name2 +", " + "when your pack is ready, you may venture outside to explore the village. Interact with any person you choose, but beware of shady characters. They will try to steal your gold!!");
 //Then I tell JavaScript that "name2" should be used in conjunction with what i ask to be written on the page.
 
+// I left this line the way it is because I find it humorous when taken out of context.
