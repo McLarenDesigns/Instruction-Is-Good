@@ -25,7 +25,7 @@ if (answer == "Yes")
 	document.write("Preparing your beginners pack <br /> <br /> <br />");
 
 }
-//I told JavaScript that the variable "answer" is to be the same as the input recieved from the user. if that input is equal to "yes" than it should write "Smack your six pack" followed by three line breaks.
+//I told JavaScript that the variable "answer" is to be the same as the input recieved from the user. if that input is equal to "yes" than it should write "Preparing your beginners pack" followed by three line breaks.
 var name2 = prompt("What is your first name?", "");
 //I tell Javascript that the variable name2 will come from user input.
 document.write(name2 +", " + "when your pack is ready, you may venture outside to explore the village. Interact with any person you choose, but beware of shady characters. They will try to steal your gold!!");
