@@ -10,6 +10,6 @@ prompt("What is your name?", "");
 </head>
 
 <body>
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction()">Click me!!</button>
 </body>
 </html>
