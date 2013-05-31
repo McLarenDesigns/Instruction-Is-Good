@@ -1,4 +1,4 @@
-//Shaun Mcaren 5,31,2013 Assignment: Functions Wacky
+//Shaun McLaren 5,31,2013 Assignment: Functions Wacky
 
 
 var weightClass = prompt("How many pounds can you bench?", "");

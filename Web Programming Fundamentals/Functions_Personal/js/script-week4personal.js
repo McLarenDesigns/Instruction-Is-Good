@@ -1,4 +1,4 @@
-//Shaun Mcaren 5,31,2013 Assignment: Functions wk4-Personal
+//Shaun McLaren 5,31,2013 Assignment: Functions wk4-Personal
 
 
 var name = prompt("What is your last name?", "");

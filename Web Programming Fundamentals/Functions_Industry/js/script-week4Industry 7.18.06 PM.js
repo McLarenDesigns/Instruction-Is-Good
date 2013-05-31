@@ -1,4 +1,4 @@
-//Shaun Mcaren 5,31,2013 Assignment: Functions wk4-Industry
+//Shaun McLaren 5,31,2013 Assignment: Functions wk4-Industry
 
 
 var name = prompt("What word is usually in conjunction with the word Java?", "");
