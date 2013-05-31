@@ -1,0 +1,15 @@
+<html>
+<body>
+	<script>
+
+
+function helloWorld(strParam) {
+    alert(strParam);
+}
+ 
+setTimeout("helloWorld('Hello, world!')", 10000);
+
+</script>
+
+</body>
+</html>
