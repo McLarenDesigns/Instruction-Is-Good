@@ -8,7 +8,7 @@ if (name == "Silvay")
 //This tells JavaScript that "if" the name is Silvay, then it should perform the set of instructions below.
 {
 		document.write("Wow!! Could this be the wise and great one from the honorable Silvay family?... <br />");
-		//Tells JavaScript to wrrite this on the page 
+		//Tells JavaScript to write this on the page 
 		function beginnersPack (strParam) {
     alert(strParam);
 }
